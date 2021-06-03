@@ -1,7 +1,7 @@
-#Duplify AES Tests
+# Duplify AES Tests
 
 This is a run-once script to create test vectors from the official Rust test vectors
-which are derived from https://www.cosic.esat.kuleuven.be/nessie/testvectors/.
+which are in turn derived from https://www.cosic.esat.kuleuven.be/nessie/testvectors/.
 
 The test vectors in the Rust test bench are stored in a de-duplified form that uses
 the "Blobby" crate to read them in and iterate through them. This is very clever,
